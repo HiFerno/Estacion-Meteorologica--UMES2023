@@ -51,8 +51,8 @@ def setup():
     global dht, lcd, bmp, sensores_luz, url
     global port,user,passwordmqtt,mqtt_id,keepalive,ssl,ssl_params,server
     #Datos para conexion wifi
-    net_name="ARRIS-4A32"
-    passwordwifi="pesayoga1360"
+    net_name="RED"
+    passwordwifi="PASSWORD"
     wifi=network.WLAN(network.STA_IF)
     
     #variables
@@ -105,8 +105,8 @@ def setup():
     
     #DATOS MQTT
     port=0
-    user=b'Grupo#8_TARS'
-    passwordmqtt=b'Jirafaelectronica1!'
+    user=b'USER'
+    passwordmqtt=b'PASSWORD'
     mqtt_id=b''
     keepalive = 7200
     ssl = True
